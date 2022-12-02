@@ -2,7 +2,6 @@
 # collect a list of names and print out according to correct grammar and punctuation
 #import inflect  # It was easier for me to not use this package, I will try using it elsewhere
 
-
 def main():
     names = []
     while True: # collect names for list until cntl-d
@@ -26,4 +25,5 @@ def adieu(names):   # according the length of the list collected, print with cor
     else:
         main()
 
-main()
+if __name__ == "__main__":
+    main()
